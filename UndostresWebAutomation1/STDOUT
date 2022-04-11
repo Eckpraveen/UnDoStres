@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.026907">
+    <testcase classname="Mobile recharge Automation on UNDOSTRES web Application" name="_2" time="3.026907">
+        <failure message="java.lang.ExceptionInInitializerError&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:574)&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:530)&#13;&#10;&#9;at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.&lt;init&gt;(LocalizedXStreams.java:50)&#13;&#10;&#9;at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)&#13;&#10;&#9;at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)&#13;&#10;&#9;at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)&#13;&#10;&#9;at cucumber.runtime.Runtime.run(Runtime.java:122)&#13;&#10;&#9;at cucumber.api.cli.Main.run(Main.java:36)&#13;&#10;&#9;at cucumber.api.cli.Main.main(Main.java:18)&#13;&#10;&#9;at ✽.Given The test execution is running on &quot;QA&quot;(C:/Users/praveendas/Downloads/Undostres/UndostresWebAutomation1/src/main/resources/features/mobileRecharge/mobileRecharge_cc.feature:7)&#13;&#10;Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not &quot;opens java.util&quot; to unnamed module @39aeed2f&#13;&#10;&#9;at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)&#13;&#10;&#9;at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)&#13;&#10;&#9;at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)&#13;&#10;&#9;at java.base/java.lang.reflect.Field.setAccessible(Field.java:171)&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:39)&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter.&lt;clinit&gt;(TreeMapConverter.java:50)&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:574)&#13;&#10;&#9;at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:530)&#13;&#10;&#9;at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.&lt;init&gt;(LocalizedXStreams.java:50)&#13;&#10;&#9;at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)&#13;&#10;&#9;at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)&#13;&#10;&#9;at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)&#13;&#10;&#9;at cucumber.runtime.Runtime.run(Runtime.java:122)&#13;&#10;&#9;at cucumber.api.cli.Main.run(Main.java:36)&#13;&#10;&#9;at cucumber.api.cli.Main.main(Main.java:18)&#13;&#10;"><![CDATA[Given The test execution is running on "QA".................................failed
+
+StackTrace:
+java.lang.ExceptionInInitializerError
+	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.runtime.Runtime.run(Runtime.java:122)
+	at cucumber.api.cli.Main.run(Main.java:36)
+	at cucumber.api.cli.Main.main(Main.java:18)
+	at ✽.Given The test execution is running on "QA"(C:/Users/praveendas/Downloads/Undostres/UndostresWebAutomation1/src/main/resources/features/mobileRecharge/mobileRecharge_cc.feature:7)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @39aeed2f
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:171)
+	at cucumber.deps.com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:39)
+	at cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter.<clinit>(TreeMapConverter.java:50)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.runtime.Runtime.run(Runtime.java:122)
+	at cucumber.api.cli.Main.run(Main.java:36)
+	at cucumber.api.cli.Main.main(Main.java:18)
+]]></failure>
+    </testcase>
+</testsuite>
